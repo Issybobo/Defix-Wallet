@@ -1,10 +1,10 @@
 async function main() {
   // Grab the contract factory 
-  const Transactions = await ethers.getContractFactory("Transactions");
+  const Defix = await ethers.getContractFactory("Defix");
 
   // Start deployment, returning a promise that resolves to a contract object
-  const transactions = await Transactions.deploy(); // Instance of the contract 
-  console.log("Contract deployed to address:", transactions.address);
+  const defix = await Defix.deploy(); // Instance of the contract 
+  console.log("Contract deployed to address:", defix.address);
 }
 
 main()

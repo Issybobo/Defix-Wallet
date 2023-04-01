@@ -2,7 +2,7 @@ import React from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
-import logo from "../../img/logo.png";
+import logo from "../assets/img/logo.png";
 
 function NavBarElement({ title, classprops }) {
   return (
@@ -56,7 +56,8 @@ const Navbar = () => {
             )}
           </ul>
         )}
-        
+
+
       </div>
     </nav>
   );

@@ -1,5 +1,5 @@
-export { default as Services} from "./Services";
+export { default as Works} from "./Works";
 export { default as Transactions} from "./Transactions";
-export { default as Footer} from "./Footer";
+export { default as Note} from "./Note";
 export { default as NavBar} from "./NavBar";
-export { default as Welcome} from "./Welcome";
+export { default as Start} from "./Start";
